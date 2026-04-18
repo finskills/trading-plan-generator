@@ -1,14 +1,15 @@
 ---
 name: Trading Plan Generator
-version: 1.0.1
+version: 1.0.2
 description: "Generate structured trade plans with entry, stop-loss, and take-profit levels based on technical and fundamental data from the Finskills API."
 author: finskills
-homepage: https://github.com/finskills/trading-plan-generator
-credentials:
-  - name: FINSKILLS_API_KEY
-    description: "Finskills API key — register for free at https://finskills.net (Pro plan required for all endpoints used in this skill)"
-    required: true
-    link: https://finskills.net
+metadata:
+  openclaw:
+    requires:
+      env:
+        - FINSKILLS_API_KEY
+    primaryEnv: FINSKILLS_API_KEY
+  homepage: https://github.com/finskills/trading-plan-generator
 ---
 
 # Trading Plan Generator

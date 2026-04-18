@@ -2,7 +2,7 @@
 
 > Convert any stock idea into a complete, professional trading plan: entry trigger, ATR-based stop-loss, risk-based position sizing, multi-target exits, time stop, and thesis validation — powered by live data from [Finskills API](https://finskills.net).
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
+[![Version](https://img.shields.io/badge/version-1.0.2-blue.svg)]()
 [![Plan](https://img.shields.io/badge/API%20Plan-Pro-orange.svg)](https://finskills.net/register)
 [![Category](https://img.shields.io/badge/category-trading-red.svg)]()
 
