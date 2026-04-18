@@ -21,7 +21,7 @@
 ## Install
 
 ```bash
-npx skills add https://github.com/your-org/finskills-skills --skill trading-plan-generator
+npx skills add https://github.com/finskills/trading-plan-generator --skill trading-plan-generator
 ```
 
 ## Quick Start
@@ -58,7 +58,7 @@ Position Value = Shares × Entry Price
 
 ## Requirements
 
-- **Finskills API Key** ([register here](https://finskills.net)): [Register at finskills.net](https://finskills.net) (free tier available) — **Pro plan required**
+- **Finskills API Key**: [Register at finskills.net](https://finskills.net) (free tier available) — **Pro plan required**
 - **Claude** with skill support
 - User should provide: account size, max risk % per trade (default: 1–2%), direction (long/short), time horizon
 

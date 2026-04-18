@@ -1,3 +1,16 @@
+---
+name: Trading Plan Generator
+version: 1.0.0
+description: "Generate structured trade plans with entry, stop-loss, and take-profit levels based on technical and fundamental data from the Finskills API."
+author: finskills
+homepage: https://github.com/finskills/trading-plan-generator
+credentials:
+  - name: FINSKILLS_API_KEY
+    description: "Finskills API key — register for free at https://finskills.net (Pro plan required for all endpoints used in this skill)"
+    required: true
+    link: https://finskills.net
+---
+
 # Trading Plan Generator
 
 Transform a stock idea into a complete, structured trading plan with specific
@@ -10,7 +23,7 @@ and position trades (weeks to months).
 
 ## Setup
 
-**API Key required** — Pro plan required.  
+**API Key required** — [Register at https://finskills.net](https://finskills.net) to get your free key.  
 Header: `X-API-Key: <your_api_key>`
 > **Get your API key**: Register at **https://finskills.net** — free tier available, Pro plan unlocks real-time quotes, history, and financials.
 
