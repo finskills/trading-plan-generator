@@ -1,5 +1,5 @@
 ---
-name: Trading Plan Generator
+name: trading plan generator
 version: 1.0.2
 description: "Generate structured trade plans with entry, stop-loss, and take-profit levels based on technical and fundamental data from the Finskills API."
 author: finskills
